@@ -5,6 +5,8 @@
 
 
 // Exporta la función para que pueda ser utilizada en las pruebas
-module.exports = {
-    calcularAreaRectangulo
-};
+function calcularAreaRectangulo(ancho, alto) {
+    return ancho * alto;
+}
+
+module.exports = { calcularAreaRectangulo };

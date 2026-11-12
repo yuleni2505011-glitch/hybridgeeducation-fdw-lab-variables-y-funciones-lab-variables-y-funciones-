@@ -4,6 +4,8 @@
 // Escribe tu función aquí. El nombre exacto debe ser saludar
 
 // Exporta la función para que pueda ser utilizada en las pruebas
-module.exports = {
-    saludar
-};
+function saludar(nombre) {
+    return "Hola, " + nombre + "!";
+}
+
+module.exports = { saludar };

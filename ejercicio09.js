@@ -5,6 +5,8 @@
 
 
 // Exporta la función para que pueda ser utilizada en las pruebas
-module.exports = {
-    calcularPromedio
-};
+function calcularPromedio(numero1, numero2, numero3, numero4, numero5) {
+    return (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
+}
+
+module.exports = { calcularPromedio };

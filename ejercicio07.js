@@ -5,6 +5,8 @@
 
 
 // Exporta la función para que pueda ser utilizada en las pruebas
-module.exports = {
-    esPar
-};
+function esPar(numero) {
+    return numero % 2 === 0;
+}
+
+module.exports = { esPar };

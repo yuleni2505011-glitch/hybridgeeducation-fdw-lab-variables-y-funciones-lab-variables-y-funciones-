@@ -7,6 +7,9 @@
 // No modificar
 // Exporta la función para que pueda ser utilizada en otros archivos
 // Como ves, tu función debe tener el nombre obtenerPI
-module.exports = {
-    obtenerPI
-};
+function obtenerPI() {
+    const PI = 3.1416;
+    return PI;
+}
+
+module.exports = { obtenerPI };

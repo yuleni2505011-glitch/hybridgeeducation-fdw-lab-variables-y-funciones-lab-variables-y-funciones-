@@ -5,6 +5,8 @@
 
 
 // Exporta la función para que pueda ser utilizada en las pruebas
-module.exports = {
-    sumar
-};
+function sumar(numero1, numero2) {
+    return numero1 + numero2;
+}
+
+module.exports = { sumar };
